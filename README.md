@@ -47,10 +47,10 @@ php artisan key:generate
 
 ---
 
-### 5️⃣ Run Database Migrations and Seeders
-Create all tables and insert test data automatically:
+### 5️⃣ Run Database Migrations
+Create all tables:
 ```bash
-php artisan migrate --seed
+php artisan migrate
 ```
 
 ---
