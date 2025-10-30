@@ -95,7 +95,7 @@ http://127.0.0.1:8000
     "id": 1,
     "title": "Clean Code",
     "author": "Robert C. Martin",
-    "publication_year": 2008,
+    "published_year": 2008,
     "genre": "Programming",
     "created_at": "2025-10-22T20:30:00.000000Z"
   }
