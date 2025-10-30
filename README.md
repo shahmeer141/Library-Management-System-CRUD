@@ -104,35 +104,6 @@ http://127.0.0.1:8000
 
 ---
 
-## 🗄️ Database Structure
-
-### 🧱 Tables
-
-1. **books**
-   - id (auto increment)
-   - title (string)
-   - author (string)
-   - publication_year (year)
-   - genre (string)
-   - timestamps
-
-2. **members**
-   - id (auto increment)
-   - name (string)
-   - email (unique)
-   - membership_date (date)
-   - timestamps
-
-3. **borrowed_books**
-   - id (auto increment)
-   - member_id (foreign key → members)
-   - book_id (foreign key → books)
-   - borrow_date (date)
-   - return_date (nullable date)
-   - timestamps
-
----
-
 ## 🧰 Technologies Used
 - **Laravel 12.x**
 - **PHP 8+**
